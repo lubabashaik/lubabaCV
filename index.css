@@ -65,7 +65,7 @@
 }
 .section .left ul li{
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1px solid black;
 }
 .section .left {
@@ -84,7 +84,8 @@ ul , h2{
 .section .center{
     border: 1px solid black;
     width: 300px;
-    padding: 3rem;
+    padding: 2rem;
+    font-size: large;
     
 }
 
@@ -94,8 +95,13 @@ ul , h2{
 .section .right{
     width: 250px;
     padding: 2rem;
+    font-size: large;
     /* border: 1px solid black; */
     /* padding: 2rem; */
+}
+.section .right ul li {
+    hyphens: auto;
+    width: 400px;
 }
 
 
